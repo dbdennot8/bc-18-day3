@@ -5,7 +5,7 @@ def max_min(number_list):
 	output =[]
 	
 	if max(number_list) == min(number_list):
-		output.append(max(numberList))
+		output.append(max(number_list))
 
 	else:
 		output.append(min(number_list))
