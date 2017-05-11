@@ -1,15 +1,15 @@
 """This function returns the maximum and 
 minimum numbers in a given array"""
 
-def max_min(numberList):
+def max_min(number_list):
 	output =[]
 	
-	if max(numberList) == min(numberList):
+	if max(number_list) == min(number_list):
 		output.append(max(numberList))
 
 	else:
-		output.append(min(numberList))
-		output.append(max(numberList))
+		output.append(min(number_list))
+		output.append(max(number_list))
 
 	return output
 
